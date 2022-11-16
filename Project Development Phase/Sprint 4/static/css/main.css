@@ -1,5 +1,4 @@
-
-img-preview {
+.img-preview {
     width: 256px;
     height: 256px;
     position: relative;
@@ -21,24 +20,26 @@ input[type="file"] {
     display: none;
 }
 
-.upload-label{
+.upload-label {
     display: inline-block;
     padding: 12px 30px;
-    background: #541690;
+    background: #fe2727;
     color: #fff;
     font-size: 1em;
     transition: all .4s;
     cursor: pointer;
 }
 
-.upload-label:hover{
+.upload-label:hover {
     background: #34495E;
-    color: #541690;
+    color: #39D2B4;
 }
 
 .loader {
-    border: 8px solid #34495E; /* Light grey */
-    border-top: 8px solid #34495E; /* Blue */
+    border: 8px solid #f3f3f3;
+    /* Light grey */
+    border-top: 8px solid #3498db;
+    /* Blue */
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -46,6 +47,10 @@ input[type="file"] {
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
